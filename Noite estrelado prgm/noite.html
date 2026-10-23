@@ -18,6 +18,7 @@
             <a href="#inicio">Início</a>
             <a href="#informacao1" class="informacao">A Obra</a>
             <a href="#informacao2" class="informacao">Van Gogh</a>
+            <a href="#localizacao">Localização</a>
         </nav>
     </header>
 
@@ -104,37 +105,17 @@
 
             <div class="localizacao-grid">
 
-                <div
-                    class="mapa"
-                    role="img"
-                    aria-label="Mapa ilustrativo da região do Museu de Arte Moderna, em Manhattan, Nova York.">
-
-                    <div class="mapa-rua rua-horizontal rua-h1"></div>
-                    <div class="mapa-rua rua-horizontal rua-h2"></div>
-                    <div class="mapa-rua rua-horizontal rua-h3"></div>
-                    <div class="mapa-rua rua-horizontal rua-h4"></div>
-
-                    <div class="mapa-rua rua-vertical rua-v1"></div>
-                    <div class="mapa-rua rua-vertical rua-v2"></div>
-                    <div class="mapa-rua rua-vertical rua-v3"></div>
-                    <div class="mapa-rua rua-vertical rua-v4"></div>
-
-                    <span class="nome-rua nome-rua1">W 55th St</span>
-                    <span class="nome-rua nome-rua2">W 54th St</span>
-                    <span class="nome-rua nome-rua3">W 53rd St</span>
-
-                    <span class="nome-avenida nome-avenida1">5th Ave</span>
-                    <span class="nome-avenida nome-avenida2">6th Ave</span>
-
-                    <div class="marcador-moma">
-                        <span>📍</span>
-                        <strong>MoMA</strong>
-                    </div>
-
-                    <div class="mapa-legenda">
-                        MAPA ILUSTRATIVO · MANHATTAN, NOVA YORK
-                    </div>
-
+                <div class="mapa">
+                    <iframe
+                        src="https://maps.google.com/maps?q=Museum%20of%20Modern%20Art%2C%2011%20West%2053rd%20Street%2C%20New%20York&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                        width="100%"
+                        height="100%"
+                        style="border: 0;"
+                        allowfullscreen
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Localização do Museu de Arte Moderna de Nova York">
+                    </iframe>
                 </div>
 
                 <div class="endereco">
@@ -150,6 +131,16 @@
                         A Noite Estrelada, de Vincent van Gogh,
                         faz parte do acervo do MoMA.
                     </p>
+
+                    <a
+                        class="botao-secundario"
+                        href="https://www.google.com/maps/search/?api=1&query=Museum+of+Modern+Art+11+West+53rd+Street+New+York"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Abrir rota no Google Maps ↗
+                    </a>
+
+                    <br><br>
 
                     <a
                         class="botao-secundario"
